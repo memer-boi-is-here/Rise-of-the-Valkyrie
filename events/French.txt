@@ -1,0 +1,22 @@
+﻿###########################
+# Chinese Events
+###########################
+
+add_namespace = fre
+
+# Japanese Stage Border Incident
+country_event = {
+	id = fre.1
+	title = "The Germanic Offer"
+	desc = fre.1.d
+	picture = GFX_Collapse_of_Hess
+	
+	is_triggered_only = yes
+	
+	option = { # Agree to the Deal
+		name = "Agree to the Deal"
+		ai_chance = { factor = 90 }
+     PRS = { transfer_state = 51 }
+	}	
+	}
+		

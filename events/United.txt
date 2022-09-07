@@ -1,0 +1,220 @@
+﻿###########################
+# Chinese Events
+###########################
+
+add_namespace = USM
+
+# Japanese Stage Border Incident
+country_event = {
+	id = usm.1
+	title = "The Announcement"
+	desc = usm.1.d
+	picture = GFX_Truman
+	
+	is_triggered_only = yes
+	
+	option = { # announce
+		name = "He will not be Running this time"
+		ai_chance = { factor = 90 }
+		create_country_leader = {
+			name = "Alben Barkley"
+			desc = ""
+			picture = "Barkley.dds"
+			expire = "1956.4.30"
+			ideology = market_liberalism
+			traits = {
+			}
+		}
+	}	
+	}
+	country_event = {
+	id = usm.2
+	title = "Republican Convention"
+	desc = usm.2.d
+	picture = GFX_Con
+	
+	#is_triggered_only = yes
+		trigger = {
+	 original_tag = USM
+	 date = 1952.8.24
+	 }
+	
+	option = { # 3rd times the charm
+		name = "3rd Times the Charm"
+		ai_chance = { factor = 25 }
+	}
+	option = { # The Hero of D-Day
+		name = "The Hero of D-Day"
+		ai_chance = { factor = 25 }
+				create_country_leader = {
+			name = "Dwight D. Esienhower"
+			desc = ""
+			picture = "Ike.dds"
+			expire = "1969.3.28"
+			ideology = conservatism
+			traits = {
+			}
+		}
+	}
+	option = { # The Californian
+		name = "The Californian"
+		ai_chance = { factor = 25 }
+						create_country_leader = {
+			name = "Earl Warren"
+			desc = ""
+			picture = "Warren.dds"
+			expire = "1970.1.1"
+			ideology = conservatism
+			traits = {
+			}
+		}
+	}	
+	}
+country_event = {
+	id = usm.3
+	title = "Culbert Olson Runs"
+	desc = usm.3.d
+	picture = GFX_Pro
+	
+	#is_triggered_only = yes
+	
+			trigger = {
+	 original_tag = USM
+	 date = 1952.8.30
+	 }
+	
+	option = { # The Progressives Will Win
+		name = "The Progressives Will Win"
+		ai_chance = { factor = 90 }
+	}	
+	}
+		country_event = {
+	id = usm.4
+	title = "Democratic National Convention"
+	desc = usm.4.d
+	picture = GFX_Con
+	
+	#is_triggered_only = yes
+		trigger = {
+	 original_tag = USM
+	 date = 1952.7.8
+	 }
+	
+	option = { # The VP
+		name = "The VP"
+		ai_chance = { factor = 25 }
+	}
+	option = { # The Senator
+		name = "The Senator"
+		ai_chance = { factor = 25 }
+				create_country_leader = {
+			name = "Hubert Humphrey"
+			desc = ""
+			picture = "Humphrey.dds"
+			expire = "1970.1.1"
+			ideology = market_liberalism
+			traits = {
+			}
+		}
+	}
+	option = { # The Governor
+		name = "The Governor"
+		ai_chance = { factor = 25 }
+						create_country_leader = {
+			name = "Adlai Stevenson"
+			desc = ""
+			picture = "Warren.dds"
+			expire = "1970.1.1"
+			ideology = market_liberalism
+			traits = {
+			}
+		}
+	}	
+	}
+		country_event = {
+	id = usm.5
+	title = "Strom Thurmond Runs"
+	desc = usm.5.d
+	picture = GFX_Dixiecrat
+	
+	#is_triggered_only = yes
+	
+			trigger = {
+	 original_tag = USM
+	 date = 1952.8.30
+	 }
+	
+	option = { # The Progressives Will Win
+		name = "We'll all go down to Dixie"
+		ai_chance = { factor = 90 }
+	}	
+	}
+		country_event = {
+	id = usm.6
+	title = "Presidential Election"
+	desc = usm.6.d
+	picture = GFX_Collapse_of_Hess
+	
+	#is_triggered_only = yes
+		trigger = {
+	 original_tag = USM
+	 date = 1952.11.4
+	 }
+	
+	option = { # Olson
+		name = "Olsons National Progressive Party"
+		ai_chance = { factor = 25 }
+	set_politics = {
+	ruling_party = social_democracy
+        elections_allowed = yes
+        last_election = "1952.11.4"
+        election_frequency = 48
+}
+		set_political_party = {
+    ideology = social_democracy
+    popularity = 50
+}
+	}
+	option = { # Democrat
+		name = "The People Elect a 6th term for the Democrats"
+		ai_chance = { factor = 25 }
+	set_politics = {
+	ruling_party = market_liberalism
+        elections_allowed = yes
+        last_election = "1952.11.4"
+        election_frequency = 48
+}
+		set_political_party = {
+    ideology = market_liberalism
+    popularity = 50
+}
+	}
+	option = { # Republican
+		name = "Finally, a Republican in the White House"
+		ai_chance = { factor = 25 }
+	set_politics = {
+	ruling_party = democratic
+        elections_allowed = yes
+        last_election = "1952.11.4"
+        election_frequency = 48
+}
+		set_political_party = {
+    ideology = democratic
+    popularity = 50
+}
+	}
+	option = { # Thurmond
+		name = "Thurmonds Dixiecrats take the Country"
+		ai_chance = { factor = 25 }
+	set_politics = {
+	ruling_party = neutrality
+        elections_allowed = yes
+        last_election = "1952.11.4"
+        election_frequency = 48
+}
+		set_political_party = {
+    ideology = neutrality
+    popularity = 50
+}
+	}		
+	}

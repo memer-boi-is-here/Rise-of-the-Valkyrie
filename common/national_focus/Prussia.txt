@@ -1,0 +1,432 @@
+﻿focus_tree = {
+	id = Prussia_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 3
+			tag = PRS
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 800 y = 1000 }
+	
+	focus = {
+		id = Germanic_Expansion
+		icon = GFX_goal_Germanic_PRS
+		x = 3
+		y = 5
+		#relative_position_id = AST_empower_the_workers
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 5
+		#prerequisite = { focus = AST_workers_paradise }
+
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_political_power = 100
+		}
+			ai_will_do = {
+			}
+		}
+	focus = {
+		id = Invade_the_Communists
+		icon = GFX_goal_Commie_PRS
+		x = 2
+		y = 1
+		relative_position_id = Germanic_Expansion
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 4
+		prerequisite = { focus = Germanic_Expansion }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            declare_war_on = {
+    target = HAN
+    type = annex_everything
+}
+		}
+			ai_will_do = {
+			}
+		}
+	focus = {
+		id = Take_Thuringia
+		icon = GFX_goal_anarchy_PRS
+		x = -2
+		y = 1
+		relative_position_id = Germanic_Expansion
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 4
+		prerequisite = { focus = Germanic_Expansion }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+transfer_state = 60
+		}
+			ai_will_do = {
+			}
+		}
+	focus = {
+		id = The_French_Gamble
+		icon = GFX_goal_FREdeal_PRS
+		x = 0
+		y = 4
+		relative_position_id = Germanic_Expansion
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = {focus = Take_Thuringia}
+		prerequisite = {focus = Invade_the_Communists}
+
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            PRS = { country_event = { id = gen.6}}
+		}
+			ai_will_do = {
+			}
+		}
+		focus = {
+		id = NGC_form
+		icon = GFX_goal_event_west_fall_GGR
+		x = 0
+		y = 2
+		relative_position_id = The_French_Gamble
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = { focus = the_french_coup }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            BUR = { country_event = { id = burgundy.2}}
+			NTH = { country_event = { id = hol.1}}
+			GGR = { country_event = { id = ggr.3}}
+		}
+			ai_will_do = {
+			}
+		}
+		focus = {
+		id = central_european_collapse
+		icon = GFX_goal_event_east_fall_GGR
+		x = -2
+		y = 1
+		relative_position_id = western_european_collapse
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = { focus = western_european_collapse }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            CZA = { country_event = { id = cza.1}}
+			GDM = { country_event = { id = gdm.1}}
+			GGR = { country_event = { id = ggr.4}}
+		}
+			ai_will_do = {
+			}
+		}
+		focus = {
+		id = End_of_a_new_beggining
+		icon = GFX_goal_event_end_of_east_fall_GGR
+		x = 2
+		y = 1
+		relative_position_id = western_european_collapse
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = { focus = western_european_collapse }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_stability = -.5
+		}
+			ai_will_do = {
+			}
+		}
+		focus = {
+		id = end_of_ruthnia
+		icon = GFX_goal_event_end_of_east_fal_GGR
+		x = 0
+		y = 1
+		relative_position_id = central_european_collapse
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = { focus = central_european_collapse }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            RUT = { country_event = { id = whr.1}}
+            UKA = { country_event = { id = uka.1}}
+			MOW = { country_event = { id = mow.1}}
+			LIV = { country_event = { id = liv.1}}
+		}
+			ai_will_do = {
+			}
+		}
+		focus = {
+		id = polska
+		icon = GFX_goal_event_polska_GGR
+		x = 0
+		y = 1
+		relative_position_id = End_of_a_new_beggining
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = { focus = End_of_a_new_beggining }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            end_puppet = PLS
+		}
+			ai_will_do = {
+			}
+		}
+		focus = {
+		id = end_polska
+		icon = GFX_goal_event_return_polska_GGR
+		x = 0
+		y = 3
+		relative_position_id = western_european_collapse
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = { focus = polska }
+		prerequisite = { focus = end_of_ruthnia }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            PLS = { country_event = { id = pls.1}}
+		}
+			ai_will_do = {
+			}
+		}
+		focus = {
+		id = End_Gross
+		icon = GFX_goal_event_west_fall_GGR
+		x = 0
+		y = 1
+		relative_position_id = end_polska
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = { focus = end_polska }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+                    release_on_controlled = PLS
+				        release_on_controlled = AUS
+				        release_on_controlled = CZA
+		     GGR = { country_event = { id = ggr.5}}
+		}
+			ai_will_do = {
+			}
+		}
+		focus = {
+		id = prussia_free
+		icon = GFX_goal_junta_GGR
+		x = 2
+		y = 1
+		relative_position_id = End_Gross
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = { focus = End_Gross }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		     release_on_controlled = GGE
+		     GGR = { country_event = { id = ggr.8 }}                
+		}
+			ai_will_do = {
+			}
+		}
+		focus = {
+		id = bayern_free
+		icon = GFX_goal_republic_GGR
+		x = -2
+		y = 1
+		relative_position_id = End_Gross
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = { focus = End_Gross }
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+  release_on_controlled = GRP
+		     GGR = { country_event = { id = ggr.7}}                
+		}
+			ai_will_do = {
+			}
+		}
+		focus = {
+		id = End_of_the_reich
+		icon = GFX_goal_death_GGR
+		x = -2
+		y = 2
+		relative_position_id = prussia_free
+		
+		available = {
+		}
+		bypass = {
+
+		}
+		
+		cost = 3
+		prerequisite = { focus = prussia_free }
+		prerequisite = { focus = bayern_free }
+
+
+
+
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		     GGR = { country_event = { id = ggr.6}}                
+		}
+			ai_will_do = {
+			}
+		}	
+	}
+	
+	
+	
+	

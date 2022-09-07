@@ -1,0 +1,255 @@
+﻿###########################
+# Chinese Events
+###########################
+
+add_namespace = GEN
+
+# Japanese Stage Border Incident
+country_event = {
+	id = gen.1
+	title = "The Resignation of Ludwig Beck"
+	desc = gen.1.d
+	picture = GFX_reichstag
+	
+	is_triggered_only = yes
+	
+	option = { # Time for Those Planned Elections
+		name = "Time for Those Planned Elections"
+		ai_chance = { factor = 50 }
+		create_country_leader = {
+			name = "Carl Friedrich Goerdeler"
+			desc = ""
+			picture = "GOED.dds"
+			expire = "1970.1.1"
+			ideology = despotism
+			traits = {
+			}
+		}
+	}	
+		option = { # Military Control Must Be Installed
+		name = "Military Control Must Be Installed"
+		ai_chance = { factor = 50 }
+		create_country_leader = {
+			name = "Henning Von Tresckow"
+			desc = ""
+			picture = "Henning.dds"
+			expire = "1970.1.1"
+			ideology = despotism
+			traits = {
+			}
+		}
+	}
+	}
+	country_event = {
+	id = gen.2
+	title = "Snap Election"
+	desc = gen.2.d
+	picture = GFX_reichstag
+	
+	is_triggered_only = yes
+	
+	option = { # An SPD Revival
+		name = "An SPD Revival"
+		ai_chance = { factor = 25 }
+add_popularity = {
+    ideology = neutrality
+    popularity = -0.4
+}
+add_popularity = {
+    ideology = social_democracy
+    popularity = 0.4
+}
+set_politics = {
+	ruling_party = social_democracy
+        elections_allowed = yes
+        last_election = "1950.9.14"
+        election_frequency = 48
+}
+}
+	option = { # A Suprise FDP Victory
+		name = "A Suprise FDP Victory"
+		ai_chance = { factor = 25 }
+add_popularity = {
+    ideology = neutrality
+    popularity = -0.4
+}
+add_popularity = {
+    ideology = social_liberalism
+    popularity = 0.4
+}
+set_politics = {
+	ruling_party = social_liberalism
+        elections_allowed = yes
+        last_election = "1950.9.14"
+        election_frequency = 48
+}
+}
+	option = { # The Establishment CDU Victory
+		name = "The Establishment CDU Victory"
+		ai_chance = { factor = 25 }
+add_popularity = {
+    ideology = neutrality
+    popularity = -0.4
+}
+add_popularity = {
+    ideology = democratic
+    popularity = 0.4
+}
+set_politics = {
+	ruling_party = democratic
+        elections_allowed = yes
+        last_election = "1950.9.14"
+        election_frequency = 48
+}
+}
+	option = { # Stick with what we know, the DNVP
+		name = "Stick with what we know, the DNVP"
+		ai_chance = { factor = 25 }
+set_politics = {
+	ruling_party = neutrality
+        elections_allowed = yes
+        last_election = "1950.9.14"
+        election_frequency = 48
+}
+}
+
+	}
+	country_event = {
+	id = gen.3
+	title = "Death of Kurt Schumacher"
+	desc = gen.3.d
+	picture = GFX_reichstag
+	
+	#is_triggered_only = yes
+				trigger = {
+	 original_tag = GEN
+	 date = 1952.8.20
+	 }
+	
+	option = { # Rest in Peace to this democratic hero
+		name = "Rest in Peace to this Democratic Hero"
+		ai_chance = { factor = 50 }
+		create_country_leader = {
+			name = "Erich Ollenhauer"
+			desc = ""
+			picture = "Ollenhauer.dds"
+			expire = "1970.1.1"
+			ideology = social_democracy
+			traits = {
+			}
+		}
+	}	
+	}
+		country_event = {
+	id = gen.4
+	title = "Referendum to Restore the Monarchy"
+	desc = gen.4.d
+	picture = GFX_reichstag
+	
+	is_triggered_only = yes
+	
+	option = { # Republicanism is all we need
+		name = "Republicanism is all we need"
+		ai_chance = { factor = 50 }
+
+	}
+		option = { # It's time for a Hohenzollern to return
+		name = "It's time for a Hohenzollern to return"
+		ai_chance = { factor = 50 }
+		create_country_leader = {
+			name = "Ludwig I"
+			desc = ""
+			picture = "Ludwig.dds"
+			expire = "1970.1.1"
+			ideology = conservatism
+			traits = {
+			}
+		}
+				create_country_leader = {
+			name = "Ludwig I"
+			desc = ""
+			picture = "Ludwig.dds"
+			expire = "1970.1.1"
+			ideology = oligarchism
+			traits = {
+			}
+		}
+				create_country_leader = {
+			name = "Ludwig I"
+			desc = ""
+			picture = "Ludwig.dds"
+			expire = "1970.1.1"
+			ideology = social_liberalism
+			traits = {
+			}
+		}
+				create_country_leader = {
+			name = "Ludwig I"
+			desc = ""
+			picture = "Ludwig.dds"
+			expire = "1970.1.1"
+			ideology = market_liberalism
+			traits = {
+			}
+		}
+				create_country_leader = {
+			name = "Ludwig I"
+			desc = ""
+			picture = "Ludwig.dds"
+			expire = "1970.1.1"
+			ideology = social_democracy
+			traits = {
+			}
+		}
+		set_cosmetic_tag = GEN_EMP
+	}
+	}
+		country_event = {
+	id = gen.5
+	title = "How much Power"
+	desc = gen.5.d
+	picture = GFX_reichstag
+	
+	is_triggered_only = yes
+	
+	option = { # Democracy Shall Stay
+		name = "Democracy Shall Stay"
+		ai_chance = { factor = 50 }
+		complete_national_focus = Kaiser_Democracy
+	}
+	option = { # The Kaiser Must Control the Government
+		name = "Democracy Shall Stay"
+		ai_chance = { factor = 50 }
+		complete_national_focus = Glory_to_Ludwig
+		set_politics = {
+	ruling_party = neutrality
+        elections_allowed = no
+        last_election = "1950.9.14"
+        election_frequency = 48
+}
+set_popularities = {
+	democratic = 5
+	social_liberalism = 5
+	social_democracy = 5
+	national_socialism = 5
+	neutrality = 70
+	fascism = 5
+	communism = 5
+}
+	}	
+	}
+	country_event = {
+	id = gen.6
+	title = "The French Gamble"
+	desc = gen.6.d
+	picture = GFX_reichstag
+	
+	is_triggered_only = yes
+	
+	option = { # Time for Those Planned Elections
+		name = "Time for Those Planned Elections"
+		ai_chance = { factor = 50 }
+		FRE = { country_event = { id = fre.1}}
+	}	
+	}
+		

@@ -1,0 +1,106 @@
+﻿focus_tree = {
+	id = Merica_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 3
+			tag = USM
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 5000 y = 7000 }
+	
+	#truman_1_tree
+	
+	focus = {
+		id = truman
+		icon = 
+		x = 100
+		y = 40
+		#relative_position_id = AST_empower_the_workers
+		allow_branch = {has_country_leader = { ruling_only = yes name = "Harry Truman" }}
+		available = {
+
+		}
+		bypass = {
+
+		}
+		
+		cost = 10
+		#prerequisite = { focus = AST_workers_paradise }
+
+
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		completion_reward = {
+		     add_political_power = 100
+		}
+			ai_will_do = {
+			}
+		}
+			focus = {
+		id = Announce
+		icon = GFX_focus_generic_monarchy_2
+		x = 0
+		y = 2
+		relative_position_id = truman
+		
+		available = {
+
+		}
+		bypass = {
+
+		}
+		
+		cost = 4
+		prerequisite = { focus = truman }
+
+
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		completion_reward = {
+		     USM = { country_event = { id = usm.1}}
+		}
+			ai_will_do = {
+			}
+		}
+					focus = {
+		id = Form_OFN
+		icon = GFX_goal_rus_RIS
+		x = 0
+		y = 1
+		relative_position_id = Announce
+		
+		available = {
+
+		}
+		bypass = {
+
+		}
+		
+		cost = 4
+		prerequisite = { focus = Announce }
+
+
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		completion_reward = {
+		     create_faction = Organization Of Free Nations
+		}
+			ai_will_do = {
+			}
+		}
+

@@ -1,0 +1,49 @@
+﻿l_english:
+
+ soviet.65.t:1 "The Stalin Question" 
+ soviet.65.d:1 "Stalin´s health has been declining recently. Now we have to decide if we either stick with him as long as possible or get a new man in power."
+ soviet.65.a:1 "We still need Stalin" 
+ soviet.65.b:1 "We need a change"
+ 
+ soviet.66.t:0 "A new leader" 
+ soviet.66.d:0 "We have now decided to replace Stalin but who should we support?"
+ soviet.66.a:0 "placeholder1" 
+ soviet.66.b:0 "placeholder2"
+ soviet.66.c:0 "placeholder3" 
+
+ soviet.67.t:0 "Stalin dead!" 
+ soviet.67.d:0 "Stalin died! Now Beria has startet to put himself in power! This will have a big impact on our stability and may even lead to a civil war!"
+ soviet.67.a:0 "Oh no!"
+
+ soviet.68.t:0 "Beria´s supporters marching though citys!" 
+ soviet.68.d:0 "Thousands of Beria´s supporters are violently marching though citys in all parts of our Union! "
+ soviet.68.a:0 "This will cause many problems!"
+ soviet.68.b:0 "Supress this!" 
+
+soviet.69.t:0 "Kruschev´s supporters marching though citys!" 
+ soviet.69.d:0 "Thousands of Kruschev´s supporters are violently marching though citys in all parts of our Union! "
+ soviet.69.a:0 "Traitors!"
+ 
+soviet.70.t:0 "Malenkov´s supporters marching though citys!" 
+ soviet.70.d:0 "Thousands of Malenkov´s supporters are violently marching though citys in all parts of our Union! "
+ soviet.70.a:0 "This is getting too much!"
+
+soviet.71.t:0 "Molotov´s supporters marching though citys!" 
+ soviet.71.d:0 "Thousands of Molotov´s supporters are violently marching though citys in all parts of our Union! "
+ soviet.71.a:0 "This will blow over soon!"
+
+soviet.72.t:0 "A new apporach to the marches" 
+ soviet.72.d:0 "After these violent marches through our Union we have to try something else than just waiting for it to be over!"
+ soviet.72.a:0 "Make plans for it!"
+
+soviet.73.t:0 "Our last chance!" 
+ soviet.73.d:0 "We have created special forces to supress all marches or we will see consequences soon! "
+ soviet.73.a:0 "Send these forces!"
+
+soviet.74.t:0 "Stalin´s health declines further" 
+ soviet.74.d:0 "Stalin´s health is getting worse and worse and the people of our country  know that. "
+ soviet.74.a:0 "Keep him alive as long as possible!"
+
+soviet.74.t:0 "STALIN DEAD" 
+ soviet.74.d:0 "Stalin´s health has been declining and now he died! We now have to choose a new leader in order to prevent another breakdown of our country! "
+ soviet.74.a:0 "Chose!"
