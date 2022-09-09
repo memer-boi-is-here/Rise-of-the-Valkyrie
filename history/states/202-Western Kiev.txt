@@ -3,7 +3,7 @@ state={
 	id=202
 	name="STATE_202"
 	manpower = 2495352
-	resources={
+	Resources={
 		oil=8 # was: 14
 		aluminium=7 # was: 12
 	}
@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SOU
+		owner = SOV
 		victory_points = {
 			525 25
 		}
@@ -22,7 +22,7 @@ state={
 			fuel_silo = 1
 			air_base = 8
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3

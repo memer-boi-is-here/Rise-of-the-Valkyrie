@@ -5,12 +5,12 @@ state={
 	manpower = 2761291
 	
 	state_category = town
-	resources={
+	Resources={
 		steel=25 # was: 40
 	}
 
 	history={
-		owner = SOU
+		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1
@@ -18,7 +18,7 @@ state={
 		victory_points = {
 			6338 10
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

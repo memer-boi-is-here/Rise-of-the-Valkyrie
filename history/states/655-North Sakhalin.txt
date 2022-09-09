@@ -6,8 +6,8 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = SOU
-		add_core_of = SOU
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 3
 			air_base = 1

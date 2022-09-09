@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		owner = PRS
+		owner = PRE
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2
@@ -24,7 +24,7 @@ state={
 			3535 5 
 		}
 		add_core_of = SAX
-		add_core_of = PRS
+		add_core_of = PRE
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 2

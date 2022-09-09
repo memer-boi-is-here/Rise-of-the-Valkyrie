@@ -2,12 +2,12 @@
 state={
 	id=808
 	name="STATE_808"
-	resources={
+	Resources={
 		steel=1.000
 	}
 
 	history={
-		owner = SOU
+		owner = SOV
 		victory_points = {
 			9340 5 
 		}
@@ -21,7 +21,7 @@ state={
 			}
 
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 
 	}
 

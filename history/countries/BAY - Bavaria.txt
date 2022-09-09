@@ -39,7 +39,7 @@ if = {
 		freedom_level = 0.35
 	}
 	set_autonomy = {
-		target = AUT
+		target = AUS
 		autonomous_state = autonomy_reichskommissariat
 		freedom_level = 0.35
 	}
@@ -204,7 +204,7 @@ create_country_leader = {
 create_faction = "German Reich"
 add_to_faction = BAY
 add_to_faction = WUR
-add_to_faction = AUT
+add_to_faction = AUS
 
 
 

@@ -5,7 +5,7 @@ state={
 	manpower = 556677
 	
 	state_category = pastoral
-	resources={
+	Resources={
 		chromium=23 # was: 32
 	}
 
@@ -13,12 +13,12 @@ state={
 		victory_points = {
 			10329 1
 		}
-		owner = SOU
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 	}
 
 	provinces={

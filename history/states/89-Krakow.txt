@@ -9,13 +9,13 @@ state={
 		#victory_points = {
 		#	6483 1
 		#}
-		owner = SOU
+		owner = SOV
 		buildings = {
 			infrastructure = 5
 			air_base = 3
 
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 
 	}
 

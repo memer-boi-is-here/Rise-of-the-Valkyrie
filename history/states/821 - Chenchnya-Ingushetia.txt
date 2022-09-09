@@ -6,19 +6,19 @@ state = {
 	
 	state_category = rural
 	
-	resources={
+	Resources={
 		oil = 9 # was split from Dagestan which had 19 oil, and retained 10
 	}
 
 	history = {
-		owner = SOU
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}
 		victory_points = {
 			3672 5 
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 	}
 
 	provinces = {

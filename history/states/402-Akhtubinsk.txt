@@ -1,12 +1,12 @@
 state={
 	id=402
 	name="STATE_402"
-	resources={
+	Resources={
 		chromium=15.000
 	}
 
 	history={
-		owner = SOU
+		owner = SOV
 		victory_points = {
 			7341 1
 		}
@@ -15,7 +15,7 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 
 	}
 

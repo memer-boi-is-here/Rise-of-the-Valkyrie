@@ -3,14 +3,14 @@ state={
 	id=409
 	name="STATE_409"
 	manpower = 295605
-	resources={
+	Resources={
 		chromium=9 # was: 12
 	}
 	
 	state_category = rural
 
 	history={
-		owner = SOU
+		owner = SOV
 		victory_points = {
 			12189 1
 		}
@@ -22,7 +22,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 	}
 
 	provinces={

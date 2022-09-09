@@ -2,13 +2,13 @@
 # Chinese Events
 ###########################
 
-add_namespace = USM
+add_namespace = USA
 
 # Japanese Stage Border Incident
 country_event = {
-	id = usm.1
+	id = USA.1
 	title = "The Announcement"
-	desc = usm.1.d
+	desc = USA.1.d
 	picture = GFX_Truman
 	
 	is_triggered_only = yes
@@ -28,14 +28,14 @@ country_event = {
 	}	
 	}
 	country_event = {
-	id = usm.2
+	id = USA.2
 	title = "Republican Convention"
-	desc = usm.2.d
+	desc = USA.2.d
 	picture = GFX_Con
 	
 	#is_triggered_only = yes
 		trigger = {
-	 original_tag = USM
+	 original_tag = USA
 	 date = 1952.8.24
 	 }
 	
@@ -71,15 +71,15 @@ country_event = {
 	}	
 	}
 country_event = {
-	id = usm.3
+	id = USA.3
 	title = "Culbert Olson Runs"
-	desc = usm.3.d
+	desc = USA.3.d
 	picture = GFX_Pro
 	
 	#is_triggered_only = yes
 	
 			trigger = {
-	 original_tag = USM
+	 original_tag = USA
 	 date = 1952.8.30
 	 }
 	
@@ -89,14 +89,14 @@ country_event = {
 	}	
 	}
 		country_event = {
-	id = usm.4
+	id = USA.4
 	title = "Democratic National Convention"
-	desc = usm.4.d
+	desc = USA.4.d
 	picture = GFX_Con
 	
 	#is_triggered_only = yes
 		trigger = {
-	 original_tag = USM
+	 original_tag = USA
 	 date = 1952.7.8
 	 }
 	
@@ -132,15 +132,15 @@ country_event = {
 	}	
 	}
 		country_event = {
-	id = usm.5
+	id = USA.5
 	title = "Strom Thurmond Runs"
-	desc = usm.5.d
+	desc = USA.5.d
 	picture = GFX_Dixiecrat
 	
 	#is_triggered_only = yes
 	
 			trigger = {
-	 original_tag = USM
+	 original_tag = USA
 	 date = 1952.8.30
 	 }
 	
@@ -150,14 +150,14 @@ country_event = {
 	}	
 	}
 		country_event = {
-	id = usm.6
+	id = USA.6
 	title = "Presidential Election"
-	desc = usm.6.d
+	desc = USA.6.d
 	picture = GFX_Collapse_of_Hess
 	
 	#is_triggered_only = yes
 		trigger = {
-	 original_tag = USM
+	 original_tag = USA
 	 date = 1952.11.4
 	 }
 	

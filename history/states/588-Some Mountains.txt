@@ -4,18 +4,18 @@ state={
 	
 	state_category = rural
 	
-	resources={
+	Resources={
 		chromium=16 # was: 22.000
 	}
 
 	history={
-		owner = SOU
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 
 		}
 		add_core_of = KAZ
-		add_core_of = SOU
+		add_core_of = SOV
 		victory_points = {
 			12594 1
 		}

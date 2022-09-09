@@ -1,28 +1,26 @@
 spriteTypes = {
-		spriteType = {
-		name = "GFX_Truman"
-		texturefile = "gfx/event_pictures/Truman.dds"
-}
-
-
-		spriteType = {
-		name = "GFX_Con"
-		texturefile = "gfx/event_pictures/Convention.dds"
-}
-
-
+	spriteType = {
+	name = "GFX_Truman"
+	texturefile = "gfx/event_pictures/Truman.dds"
+	}
+	spriteType = {
+	name = "GFX_Con"
+	texturefile = "gfx/event_pictures/Convention.dds"
+	}
 	spriteType = {
 		name = "GFX_Pro"
 		texturefile = "gfx/event_pictures/progressive.dds"
-
+	}
 	spriteType = {
 		name = "GFX_Dixiecrat"
 		texturefile = "gfx/event_pictures/thurmond.dds"
-	
+	}	
          spriteType = {
 		name = "GFX_reichstag"
 		texturefile = "gfx/event_pictures/reichstag.dds"
-
+	}
          spriteType = {
 		name = "GFX_wilhelmina"
 		texturefile = "gfx/event_pictures/Wilhelmina.dds"
+	}
+}

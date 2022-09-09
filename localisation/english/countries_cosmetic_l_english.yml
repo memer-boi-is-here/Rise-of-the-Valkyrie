@@ -1,6 +1,6 @@
 ﻿l_english:
- PRS_NGC:0 "North German Confederation"
- PRS_NGC_DEF:0 "The North German Confederation"
+ PRE_NGC:0 "North German Confederation"
+ PRE_NGC_DEF:0 "The North German Confederation"
  GEN_EMP:0 "German Empire"
  GEN_EMP_DEF:0 "The German Empire"
  GGE_STATE:0 "German State"

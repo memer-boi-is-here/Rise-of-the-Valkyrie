@@ -6,18 +6,18 @@ state = {
 	
 	state_category = pastoral
 	
-	resources = {
+	Resources = {
 		chromium = 40 # was: 44
 		aluminium = 27 # was: 30
 	}
 
 	history = {
-		owner = SOU
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 	}
 
 	provinces = {

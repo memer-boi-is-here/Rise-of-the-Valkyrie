@@ -5,8 +5,8 @@ state={
 	state_category = town
 
 	history={
-		owner = SOU
-		add_core_of = SOU
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2

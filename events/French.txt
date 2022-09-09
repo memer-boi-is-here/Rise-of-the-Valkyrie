@@ -16,7 +16,7 @@ country_event = {
 	option = { # Agree to the Deal
 		name = "Agree to the Deal"
 		ai_chance = { factor = 90 }
-     PRS = { transfer_state = 51 }
+     PRE = { transfer_state = 51 }
 	}	
 	}
 		

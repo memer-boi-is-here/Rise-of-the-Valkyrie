@@ -3,18 +3,18 @@ state = {
 	id = 400
 	name = "STATE_400"
 	manpower = 2115475
-	resources = {
+	Resources = {
 		aluminium = 14 # was: 20
 	}
 
 	state_category = town
 
 	history = {
-		owner = SOU
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 		victory_points = {
 			6124 1
 		}

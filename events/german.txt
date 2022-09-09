@@ -2,13 +2,13 @@
 # Chinese Events
 ###########################
 
-add_namespace = GEN
+add_namespace = GER
 
 # Japanese Stage Border Incident
 country_event = {
-	id = gen.1
+	id = GER.1
 	title = "The Resignation of Ludwig Beck"
-	desc = gen.1.d
+	desc = GER.1.d
 	picture = GFX_reichstag
 	
 	is_triggered_only = yes
@@ -41,9 +41,9 @@ country_event = {
 	}
 	}
 	country_event = {
-	id = gen.2
+	id = GER.2
 	title = "Snap Election"
-	desc = gen.2.d
+	desc = GER.2.d
 	picture = GFX_reichstag
 	
 	is_triggered_only = yes
@@ -115,14 +115,14 @@ set_politics = {
 
 	}
 	country_event = {
-	id = gen.3
+	id = GER.3
 	title = "Death of Kurt Schumacher"
-	desc = gen.3.d
+	desc = GER.3.d
 	picture = GFX_reichstag
 	
 	#is_triggered_only = yes
 				trigger = {
-	 original_tag = GEN
+	 original_tag = GER
 	 date = 1952.8.20
 	 }
 	
@@ -141,9 +141,9 @@ set_politics = {
 	}	
 	}
 		country_event = {
-	id = gen.4
+	id = GER.4
 	title = "Referendum to Restore the Monarchy"
-	desc = gen.4.d
+	desc = GER.4.d
 	picture = GFX_reichstag
 	
 	is_triggered_only = yes
@@ -201,13 +201,13 @@ set_politics = {
 			traits = {
 			}
 		}
-		set_cosmetic_tag = GEN_EMP
+		set_cosmetic_tag = GER_EMP
 	}
 	}
 		country_event = {
-	id = gen.5
+	id = GER.5
 	title = "How much Power"
-	desc = gen.5.d
+	desc = GER.5.d
 	picture = GFX_reichstag
 	
 	is_triggered_only = yes
@@ -239,9 +239,9 @@ set_popularities = {
 	}	
 	}
 	country_event = {
-	id = gen.6
+	id = GER.6
 	title = "The French Gamble"
-	desc = gen.6.d
+	desc = GER.6.d
 	picture = GFX_reichstag
 	
 	is_triggered_only = yes

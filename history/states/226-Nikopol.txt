@@ -6,12 +6,12 @@ state={
 	
 	state_category = town
 	
-	resources={
+	Resources={
 		oil=4 # was: 6
 	}
 
 	history={
-		owner = SOU
+		owner = SOV
 		victory_points = {
 			11437 10 
 		}
@@ -23,7 +23,7 @@ state={
 			industrial_complex = 2
 			air_base = 2
 		}
-		add_core_of = SOU
+		add_core_of = SOV
 	}
 
 	provinces={

@@ -1,12 +1,12 @@
 
 state={
 	id=39
-	name="STATE_39" # South Tyrol
+	name="STATE_39" # SOVth Tyrol
 	manpower = 641650
 	
 	state_category = town
 	
-	resources={
+	Resources={
 		aluminium=14 # was: 22
 	}
 
@@ -19,9 +19,9 @@ state={
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_core_of = ITE
+		add_core_of = ITA
 		add_core_of = ITR
-		add_core_of = AUT
+		add_core_of = AUS
 		add_core_of = SRI
 	}
 
