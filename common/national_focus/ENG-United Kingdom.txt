@@ -1,0 +1,90 @@
+focus_tree = {
+	id = UK_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ENG  }
+
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+	
+	
+	focus = {
+	id = industrial_rebuild
+	icon = 
+	x = 4
+	y = 0
+	cost = 5 
+	completion_reward = {
+	add_tech_bonus = {
+	name = industry_bonus
+	bonus = 0.5
+        ahead_reduction = 0.5
+	uses = 3
+	category = industry
+} } }
+
+    focus = {
+	id = revise_our_industrial_approach
+	icon = 
+	relative_position_id = industrial_rebuild
+	x = -1
+	y = 1 
+	prerequesite = { focus = industrial_rebuild }
+	completion_reward = {
+	add_timed_idea = { idea = industrial_reapproach days = 356 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
