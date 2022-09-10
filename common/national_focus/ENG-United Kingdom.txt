@@ -36,9 +36,52 @@ focus_tree = {
 	relative_position_id = industrial_rebuild
 	x = -1
 	y = 1 
+	cost = 10
 	prerequesite = { focus = industrial_rebuild }
 	completion_reward = {
-	add_timed_idea = { idea = industrial_reapproach days = 356 }
+	add_timed_idea = { idea = industrial_reapproach days = 356 } } }
+	
+  focus = {
+  id = invest_in_civilian_industry
+  icon = 
+  relative_position_id = revise_our_industrial_approach
+  x = 0
+  y = 1
+  prerequesite = { focus = revise_our_industrial_approach }
+  cost = 10
+  completion_reward = { 
+  random_owned_controlled_state = {
+  limit = {
+  free_building_slots = {
+  building = industrial_complex
+  size > 0
+  include_locked = yes
+  }
+  }
+  add_extra_state_shared_building_slots = 2
+  add_building_construction = {
+  type = industrial_complex
+  level = 2
+  instant_build = yes }
+  } }
+  
+  
+  focus = {
+  id = invest_in_the_military 
+  icon = 
+  relative_position_id = industrial_rebuild
+  x = 1
+  y = 1
+  cost = 5
+  completion_reward = {
+  ENG = { country_event = { id = uk.1 } }
+  } }
+  
+  
+  
+  
+  
+  
 	
 	
 	
