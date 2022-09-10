@@ -1,0 +1,33 @@
+﻿capital = 126
+
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1945.8.6"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_democracy = 45
+	democratic = 2
+	communism = 1
+	neutrality = 0
+	libertarian_socialism = 1
+	democratic_socialism = 1
+	market_liberalism = 1
+	social_liberalism = 1
+	fascism = 7
+	national_socialism = 3
+}
+
+create_country_leader = {
+	name = "Clement Atlee"
+	desc = ""
+	picture = ""
+	expire = "1966.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
