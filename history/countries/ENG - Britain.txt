@@ -11,12 +11,12 @@ set_popularities = {
 	social_democracy = 45
 	democratic = 2
 	communism = 1
-	neutrality = 0
+	neutrality = 5
 	libertarian_socialism = 1
 	democratic_socialism = 1
 	market_liberalism = 1
 	social_liberalism = 1
-	fascism = 7
+	fascism = 40
 	national_socialism = 3
 }
 
@@ -27,7 +27,7 @@ create_country_leader = {
 	expire = "1966.1.1"
 	ideology = social_democracy
 	traits = {
-		#
+		champion_of_peace_2
 	}
 }
 
