@@ -40,7 +40,7 @@ focus_tree = {
 	x = -1
 	y = 1 
 	cost = 10
-	prerequesite = { focus = industrial_rebuild }
+	prerequisite = { focus = industrial_rebuild }
 	completion_reward = {
 	add_timed_idea = { idea = industrial_reapproach days = 356 } } }
 	
@@ -50,7 +50,7 @@ focus_tree = {
   relative_position_id = revise_our_industrial_approach
   x = -1
   y = 1
-  prerequesite = { focus = revise_our_industrial_approach }
+  prerequisite = { focus = revise_our_industrial_approach }
   cost = 10
   completion_reward = { 
   random_owned_controlled_state = {
@@ -73,7 +73,7 @@ focus_tree = {
   relative_position_id = invest_in_civilian_industry
   x = 0
   y = 1
-  prerequesite = { focus = revise_our_industrial_approach }
+  prerequisite = { focus = revise_our_industrial_approach }
   cost = 10
   completion_reward = { 
   random_owned_controlled_state = {
@@ -97,7 +97,7 @@ focus_tree = {
   relative_position_id = revise_our_industrial_approach
   x = -1
   y = 1
-  prerequesite = { focus = revise_our_industrial_approach }
+  prerequisite = { focus = revise_our_industrial_approach }
   cost = 5
   completion_reward = {
   add_tech_bonus = {
@@ -113,7 +113,7 @@ focus = {
   relative_position_id = revise_our_industrial_approach
   x = -1
   y = 1
-  prerequesite = { focus = revise_our_industrial_approach }
+  prerequisite = { focus = revise_our_industrial_approach }
   cost = 5
   completion_reward = {
   add_tech_bonus = {
