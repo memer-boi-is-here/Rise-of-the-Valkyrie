@@ -50,7 +50,7 @@ focus_tree = {
   id = invest_in_civilian_industry
   icon = 
   relative_position_id = revise_our_industrial_approach
-  x = 0
+  x = -1
   y = 1
   prerequesite = { focus = revise_our_industrial_approach }
   cost = 10
@@ -94,14 +94,37 @@ focus_tree = {
   instant_build = yes }
   } }
   
-  
-  
-  
-  
-  
-  
-  
-  
+  focus = {
+  id = modernize_equipment
+  icon = 
+  relative_position_id = revise_our_industrial_approach
+  x = -1
+  y = 1
+  prerequesite = { focus = revise_our_industrial_approach }
+  cost = 5
+  completion_reward = {
+  add_tech_bonus = {
+	name = industry_bonus2
+	bonus = 1.5
+        ahead_reduction = 0
+	uses = 3
+	category = industry } } 
+	
+focus = {
+  id = modernize_equipment_2
+  icon = 
+  relative_position_id = revise_our_industrial_approach
+  x = -1
+  y = 1
+  prerequesite = { focus = revise_our_industrial_approach }
+  cost = 5
+  completion_reward = {
+  add_tech_bonus = {
+	name = industry_bonus2
+	bonus = 0
+        ahead_reduction = 1
+	uses = 2
+	category = industry } }
   
   
   
