@@ -192,12 +192,30 @@ icon = GFX_goal_generic_support_fascism
 
         type = infantry_equipment_1
 
-        amount = 100
+        amount = 2500
 
     }
 } }		
 	
-	
+focus = {	
+id = stockpile_equipment
+icon = GFX_goal_generic_support_fascism
+  relative_position_id = stockpile_equipment
+  x = -2
+  y = 1
+  cost = 5
+  prerequesite = { focus = stockpile_equipment }
+  limit = { has_tech = artillery_1 }
+  completion_reward = { 
+  army_experience = 25
+  add_equipment_to_stockpile = {
+
+        type = artillery_1
+
+        amount = 2000
+
+    }
+} }			
 	
 	
 	
