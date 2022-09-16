@@ -21,7 +21,7 @@ focus_tree = {
 	focus = {
 	id = industrial_rebuild
 	icon = GFX_goal_generic_support_fascism
-	x = 4
+	x = 6
 	y = 0
 	cost = 5 
 	completion_reward = {
@@ -37,7 +37,7 @@ focus_tree = {
 	id = revise_our_industrial_approach
 	icon = GFX_goal_generic_support_fascism
 	relative_position_id = industrial_rebuild
-	x = -1
+	x = -3
 	y = 1 
 	cost = 10
 	prerequisite = { focus = industrial_rebuild }
@@ -110,7 +110,7 @@ focus = {
   id = modernize_equipment_2
   icon = GFX_goal_generic_support_fascism
   relative_position_id = modernize_equipment
-  x = -1
+  x = -2
   y = 1
   prerequisite = { focus = modernize_equipment }
   cost = 5
@@ -131,7 +131,7 @@ focus = {
   id = invest_in_the_military 
   icon = GFX_goal_generic_support_fascism
   relative_position_id = industrial_rebuild
-  x = 4
+  x = 3
   y = 1
   cost = 5
   prerequisite = { focus = industrial_rebuild }
@@ -140,7 +140,7 @@ focus = {
   } }
   
   focus = {
-  id = iim_1
+  id = iim_h
   icon = GFX_goal_generic_support_fascism
   relative_position_id = invest_in_the_military
   x = 2
@@ -152,7 +152,7 @@ focus = {
 	
 	
  focus = {
-  id = iim_2
+  id = iim_l
   icon = GFX_goal_generic_support_fascism
   relative_position_id = invest_in_the_military
   x = 0
@@ -166,7 +166,7 @@ air_experience = 100
 
 
 focus = {
-  id = iim_3
+  id = iim_m
   icon = GFX_goal_generic_support_fascism
   relative_position_id = invest_in_the_military
   x = -2
@@ -178,9 +178,24 @@ naval_experience = 100
 } }		
 	
 	
-	
-	
-	
+focus = {	
+id = stockpile_equipment
+icon = GFX_goal_generic_support_fascism
+  relative_position_id = iim_h
+  x = -2
+  y = 1
+  cost = 5
+  prerequesite = { focus = iim_h }
+  completion_reward = { 
+  army_experience = 25
+  add_equipment_to_stockpile = {
+
+        type = infantry_equipment_1
+
+        amount = 100
+
+    }
+} }		
 	
 	
 	
