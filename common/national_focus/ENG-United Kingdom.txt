@@ -132,9 +132,10 @@ focus = {
   id = invest_in_the_military 
   icon = GFX_goal_generic_support_fascism
   relative_position_id = industrial_rebuild
-  x = 1
+  x = 4
   y = 1
   cost = 5
+  prerequisite = { focus = industrial_rebuild }
   completion_reward = {
   ENG = { country_event = { id = uk.1 } }
   } }
@@ -143,7 +144,7 @@ focus = {
   id = iim_1
   icon = GFX_goal_generic_support_fascism
   relative_position_id = invest_in_the_military
-  x = 6
+  x = 2
   y = 1
   cost = 3
   prerequesite = { focus = invest_in_the_military }
@@ -151,17 +152,9 @@ focus = {
 	army_experience = 100 } }
 	
 	
- 
- 
- 
- 
- 
- 
- 
- 
  focus = {
   id = iim_2
-  icon = 
+  icon = GFX_goal_generic_support_fascism
   relative_position_id = invest_in_the_military
   x = 0
   y = 1
@@ -173,16 +166,11 @@ air_experience = 100
 	
 
 
-
-
-
-
-
 focus = {
   id = iim_3
-  icon = 
+  icon = GFX_goal_generic_support_fascism
   relative_position_id = invest_in_the_military
-  x = 6
+  x = -2
   y = 1
   cost = 3
   prerequesite = { focus = invest_in_the_military }
