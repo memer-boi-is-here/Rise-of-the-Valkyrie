@@ -20,7 +20,7 @@ focus_tree = {
 	
 	focus = {
 	id = industrial_rebuild
-	icon = 
+	icon = GFX_goal_generic_support_fascism
 	x = 4
 	y = 0
 	cost = 5 
@@ -35,7 +35,7 @@ focus_tree = {
 
     focus = {
 	id = revise_our_industrial_approach
-	icon = 
+	icon = GFX_goal_generic_support_fascism
 	relative_position_id = industrial_rebuild
 	x = -1
 	y = 1 
@@ -46,7 +46,7 @@ focus_tree = {
 	
   focus = {
   id = invest_in_civilian_industry
-  icon = 
+  icon = GFX_goal_generic_support_fascism
   relative_position_id = revise_our_industrial_approach
   x = -1
   y = 1
@@ -69,7 +69,7 @@ focus_tree = {
   
   focus = {
   id = further_invest_in_civilian_industry
-  icon = 
+  icon = GFX_goal_generic_support_fascism
   relative_position_id = invest_in_civilian_industry
   x = 0
   y = 1
@@ -93,7 +93,7 @@ focus_tree = {
   
   focus = {
   id = modernize_equipment
-  icon = 
+  icon = GFX_goal_generic_support_fascism
   relative_position_id = revise_our_industrial_approach
   x = -1
   y = 1
@@ -109,7 +109,7 @@ focus_tree = {
 	
 focus = {
   id = modernize_equipment_2
-  icon = 
+  icon = GFX_goal_generic_support_fascism
   relative_position_id = revise_our_industrial_approach
   x = -1
   y = 1
@@ -130,7 +130,7 @@ focus = {
   
   focus = {
   id = invest_in_the_military 
-  icon = 
+  icon = GFX_goal_generic_support_fascism
   relative_position_id = industrial_rebuild
   x = 1
   y = 1
@@ -141,7 +141,7 @@ focus = {
   
   focus = {
   id = iim_1
-  icon = 
+  icon = GFX_goal_generic_support_fascism
   relative_position_id = invest_in_the_military
   x = 6
   y = 1
