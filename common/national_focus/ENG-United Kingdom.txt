@@ -101,19 +101,18 @@ focus_tree = {
   cost = 5
   completion_reward = {
   add_tech_bonus = {
-	name = industry_bonus2
+	name = industry_bonus
 	bonus = 1.5
-        ahead_reduction = 0
 	uses = 3
 	category = industry } } }
 	
 focus = {
   id = modernize_equipment_2
   icon = GFX_goal_generic_support_fascism
-  relative_position_id = revise_our_industrial_approach
+  relative_position_id = modernize_equipment
   x = -1
   y = 1
-  prerequisite = { focus = revise_our_industrial_approach }
+  prerequisite = { focus = modernize_equipment }
   cost = 5
   completion_reward = {
   add_tech_bonus = {
