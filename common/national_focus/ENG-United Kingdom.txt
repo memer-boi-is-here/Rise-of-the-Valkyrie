@@ -67,7 +67,7 @@ focus_tree = {
   relative_position_id = invest_in_civilian_industry
   x = 0
   y = 1
-  prerequisite = { focus = invest_in_civillian_industry}
+  prerequisite = { focus = invest_in_civilian_industry }
   cost = 10
   completion_reward = { 
   126 = {
