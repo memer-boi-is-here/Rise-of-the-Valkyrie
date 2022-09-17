@@ -201,7 +201,7 @@ focus = {
 id = stockpile_equipment_2
 icon = GFX_goal_generic_support_fascism
   relative_position_id = stockpile_equipment
-  x = -2
+  x = 0
   y = 1
   cost = 5
   prerequesite = { focus = stockpile_equipment }
@@ -221,7 +221,7 @@ focus = {
 id = build_up_army
 icon = GFX_goal_generic_support_fascism
   relative_position_id = stockpile_equipment_2
-  x = -2
+  x = 0
   y = 1
   cost = 5
   prerequesite = { focus = stockpile_equipment_2 }
@@ -244,24 +244,77 @@ icon = GFX_goal_generic_support_fascism
   }
 }
 
-
+126 = {
 create_unit = { division = "name = \"1. Royal Guards\" division_template = \"Royal Guards\" start_experience_factor = 0.5"  owner = ENG }	
 create_unit = { division = "name = \"2. Royal Guards\" division_template = \"Royal Guards\" start_experience_factor = 0.5"  owner = ENG }	
 create_unit = { division = "name = \"3. Royal Guards\" division_template = \"Royal Guards\" start_experience_factor = 0.5"  owner = ENG }	
 create_unit = { division = "name = \"4. Royal Guards\" division_template = \"Royal Guards\" start_experience_factor = 0.5"  owner = ENG }	
 create_unit = { division = "name = \"5. Royal Guards\" division_template = \"Royal Guards\" start_experience_factor = 0.5"  owner = ENG }	
-} }	
+} } }	
+	
+
+focus = {	
+id = naval_effort
+icon = GFX_goal_generic_support_fascism
+  relative_position_id = iim_m
+  x = 0
+  y = 1
+  cost = 5
+  prerequesite = { focus = iim_m }
+  completion_reward = { 
+   
+add_tech_bonus = {
+	name = electronics_bonus
+	bonus = 1
+        ahead_reduction = 0
+	uses = 3
+	category = naval_equipment
+} } }
+	
+
+
+focus = {	
+id = naval_effort_2
+icon = GFX_goal_generic_support_fascism
+  relative_position_id = naval_effort
+  x = 0
+  y = 1
+  cost = 5
+  prerequesite = { focus = naval_effort }
+  completion_reward = { 
+   
+add_tech_bonus = {
+	name = electronics_bonus
+	bonus = 0
+        ahead_reduction = 0.5
+	uses = 4
+	category = naval_equipment
+} } }	
 	
 	
+focus = {	
+id = strengthen_the_RAF
+icon = GFX_goal_generic_support_fascism
+  relative_position_id = iim_l
+  x = 0
+  y = 1
+  cost = 5
+  prerequesite = { focus = iim_l }
+  completion_reward = { 	
+  set_technology = {	
+	fighter = 1 } } }
 	
-	
-	
-	
-	
-	
-	
-	
-	
+focus = {	
+id = test_the_new_figthers
+icon = GFX_goal_generic_support_fascism
+  relative_position_id = strengthen_the_RAF
+  x = 0
+  y = 1
+  cost = 5
+  prerequesite = { focus = strengthen_the_RAF }
+  completion_reward = { 	
+  air_experience = 150
+  } }	
 	
 	
 	
