@@ -146,7 +146,7 @@ focus = {
   x = 2
   y = 1
   cost = 3
-  prerequesite = { focus = invest_in_the_military }
+  prerequisite = { focus = invest_in_the_military }
   completion_reward = { 
 	army_experience = 100 } }
 	
@@ -158,7 +158,7 @@ focus = {
   x = 0
   y = 1
   cost = 3
-  prerequesite = { focus = invest_in_the_military }
+  prerequisite = { focus = invest_in_the_military }
   completion_reward = { 
 air_experience = 100
 } }	
@@ -172,7 +172,7 @@ focus = {
   x = -2
   y = 1
   cost = 3
-  prerequesite = { focus = invest_in_the_military }
+  prerequisite = { focus = invest_in_the_military }
   completion_reward = { 
 naval_experience = 100
 } }		
@@ -185,7 +185,7 @@ icon = GFX_goal_generic_support_fascism
   x = -2
   y = 1
   cost = 5
-  prerequesite = { focus = iim_h }
+  prerequisite = { focus = iim_h }
   completion_reward = { 
   army_experience = 25
   add_equipment_to_stockpile = {
@@ -204,7 +204,7 @@ icon = GFX_goal_generic_support_fascism
   x = 0
   y = 1
   cost = 5
-  prerequesite = { focus = stockpile_equipment }
+  prerequisite = { focus = stockpile_equipment }
   limit = { has_tech = artillery_1 }
   completion_reward = { 
   army_experience = 25
@@ -224,7 +224,7 @@ icon = GFX_goal_generic_support_fascism
   x = 0
   y = 1
   cost = 5
-  prerequesite = { focus = stockpile_equipment_2 }
+  prerequisite = { focus = stockpile_equipment_2 }
   completion_reward = { 
   division_template = {
   name = "Royal Guards"
@@ -260,7 +260,7 @@ icon = GFX_goal_generic_support_fascism
   x = 0
   y = 1
   cost = 5
-  prerequesite = { focus = iim_m }
+  prerequisite = { focus = iim_m }
   completion_reward = { 
    
 add_tech_bonus = {
@@ -280,7 +280,7 @@ icon = GFX_goal_generic_support_fascism
   x = 0
   y = 1
   cost = 5
-  prerequesite = { focus = naval_effort }
+  prerequisite = { focus = naval_effort }
   completion_reward = { 
    
 add_tech_bonus = {
@@ -299,10 +299,10 @@ icon = GFX_goal_generic_support_fascism
   x = 0
   y = 1
   cost = 5
-  prerequesite = { focus = iim_l }
+  prerequisite = { focus = iim_l }
   completion_reward = { 	
   set_technology = {	
-	fighter = 1 } } }
+	light_air = 1 } } }
 	
 focus = {	
 id = test_the_new_figthers
@@ -311,7 +311,7 @@ icon = GFX_goal_generic_support_fascism
   x = 0
   y = 1
   cost = 5
-  prerequesite = { focus = strengthen_the_RAF }
+  prerequisite = { focus = strengthen_the_RAF }
   completion_reward = { 	
   air_experience = 150
   } }	
