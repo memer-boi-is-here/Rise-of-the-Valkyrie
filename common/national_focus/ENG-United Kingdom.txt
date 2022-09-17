@@ -198,7 +198,7 @@ icon = GFX_goal_generic_support_fascism
 } }		
 	
 focus = {	
-id = stockpile_equipment
+id = stockpile_equipment_2
 icon = GFX_goal_generic_support_fascism
   relative_position_id = stockpile_equipment
   x = -2
@@ -215,13 +215,42 @@ icon = GFX_goal_generic_support_fascism
         amount = 2000
 
     }
-} }			
-	
-	
-	
-	
-	
-	
+} }	
+
+focus = {
+id = build_up_army
+icon = GFX_goal_generic_support_fascism
+  relative_position_id = stockpile_equipment_2
+  x = -2
+  y = 1
+  cost = 5
+  prerequesite = { focus = stockpile_equipment_2 }
+  completion_reward = { 
+  division_template = {
+  name = "Royal Guards"
+  priority = 1
+
+  regiments = {
+	infantry = { x = 0 y = 0 }		
+	infantry = { x = 0 y = 1 }
+	infantry = { x = 0 y = 2 }
+	infantry = { x = 0 y = 3 }
+	infantry = { x = 0 y = 4 }
+	infantry = { x = 1 y = 0 }
+	infantry = { x = 1 y = 1 }
+	infantry = { x = 1 y = 2 }
+ 	infantry = { x = 1 y = 3 }
+	infantry = { x = 1 y = 4 }
+  }
+}
+
+
+create_unit = { division = "name = \"1. Royal Guards\" division_template = \"Royal Guards\" start_experience_factor = 0.5"  owner = ENG }	
+create_unit = { division = "name = \"2. Royal Guards\" division_template = \"Royal Guards\" start_experience_factor = 0.5"  owner = ENG }	
+create_unit = { division = "name = \"3. Royal Guards\" division_template = \"Royal Guards\" start_experience_factor = 0.5"  owner = ENG }	
+create_unit = { division = "name = \"4. Royal Guards\" division_template = \"Royal Guards\" start_experience_factor = 0.5"  owner = ENG }	
+create_unit = { division = "name = \"5. Royal Guards\" division_template = \"Royal Guards\" start_experience_factor = 0.5"  owner = ENG }	
+} }	
 	
 	
 	
