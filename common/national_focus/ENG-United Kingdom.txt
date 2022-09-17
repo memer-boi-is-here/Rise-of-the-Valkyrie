@@ -48,7 +48,7 @@ focus_tree = {
   id = invest_in_civilian_industry
   icon = GFX_goal_generic_support_fascism
   relative_position_id = revise_our_industrial_approach
-  x = -1
+  x = 0
   y = 1
   prerequisite = { focus = revise_our_industrial_approach }
   cost = 10
@@ -302,7 +302,7 @@ icon = GFX_goal_generic_support_fascism
   prerequisite = { focus = iim_l }
   completion_reward = { 	
   set_technology = {	
-	light_air = 1 } } }
+	fighter1} } }
 	
 focus = {	
 id = test_the_new_figthers
