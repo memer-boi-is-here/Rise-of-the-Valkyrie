@@ -48,7 +48,7 @@ focus_tree = {
   id = invest_in_civilian_industry
   icon = GFX_goal_generic_support_fascism
   relative_position_id = revise_our_industrial_approach
-  x = 0
+  x = 1
   y = 1
   prerequisite = { focus = revise_our_industrial_approach }
   cost = 10
@@ -67,7 +67,7 @@ focus_tree = {
   relative_position_id = invest_in_civilian_industry
   x = 0
   y = 1
-  prerequisite = { focus = revise_our_industrial_approach }
+  prerequisite = { focus = invest_in_civillian_industry}
   cost = 10
   completion_reward = { 
   126 = {
