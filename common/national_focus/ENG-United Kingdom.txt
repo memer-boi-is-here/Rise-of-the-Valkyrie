@@ -174,7 +174,7 @@ focus = {
   cost = 3
   prerequisite = { focus = invest_in_the_military }
   completion_reward = { 
-naval_experience = 100
+navy_experience = 100
 } }		
 	
 	
@@ -182,7 +182,7 @@ focus = {
 id = stockpile_equipment
 icon = GFX_goal_generic_support_fascism
   relative_position_id = iim_h
-  x = -2
+  x = 0
   y = 1
   cost = 5
   prerequisite = { focus = iim_h }
