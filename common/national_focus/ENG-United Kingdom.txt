@@ -311,8 +311,8 @@ focus = {
 id = the_aftermath_of_the_war
 icon = GFX_goal_generic_support_fascism
   x = 15
- y = 0
- cost = 5
+  y = 0
+  cost = 5
  completion_reward = {
   political_power = 125 } }
   
